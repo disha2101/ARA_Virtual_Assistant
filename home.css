@@ -1,12 +1,21 @@
 
-
-/* bubble code */
-
 *{
     margin:0px;
     padding:0px;
   }
-  
+  .center{
+    
+      margin: auto;
+      width: 60%;
+      padding: 10px;
+  }
+  .container{
+    padding: 100px;
+    margin: 100px;
+  }
+  body{
+    background-color:black;
+  }
   .circular-sb {
     width: 250px;
     border: 5px solid #00bfb6;
@@ -19,6 +28,7 @@
     font-family: arial;
     position: relative;
     color: #00bfb6;
+    background-color: #fff;
   }
   
   
@@ -26,7 +36,6 @@
 
   
   
-  /*left circle shape speech bubble*/
   
   .circle3 {
     border: 5px solid #00bfb6;
@@ -65,7 +74,7 @@
   
   
   
-  /* youtube link
+  youtube link
   .youtube{
     position: fixed;
     bottom: 10px;
@@ -82,7 +91,7 @@
     color: #fff;
     text-transform: capitalize;
     letter-spacing: 1px;
-  } */
+  } 
 
 
 
@@ -102,7 +111,7 @@
      top: -30%;
      height: 60%;
      width: 25%;
-     background: #161616;
+     background: white;
    }
    .ear::before, .ear::after {
      content: "";
@@ -145,7 +154,7 @@
      position: absolute;
      height: 200px;
      width: 200px;
-     background: #161616;
+     background-color: black;
      border-radius: 50%;
    align-content: center;
    }
@@ -329,5 +338,4 @@
 
 
 
-   /* footer */
   
