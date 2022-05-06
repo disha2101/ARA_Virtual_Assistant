@@ -3,19 +3,25 @@
     margin:0px;
     padding:0px;
   }
-  .center{
+  /* .center{
     
       margin: auto;
       width: 60%;
       padding: 10px;
-  }
+  } */
   .container{
     padding: 100px;
     margin: 100px;
   }
-  body{
+  /* body{
     background-color:black;
-  }
+  } */
+
+ .model{
+   padding-top: 150px;
+   padding-right: 50px;
+ }
+
   .circular-sb {
     width: 250px;
     border: 5px solid #00bfb6;
@@ -31,10 +37,13 @@
     background-color: #fff;
   }
   
+ body{
+   min-height: 100%;
+ }
   
-  
-
-  
+  footer{
+  margin-top: 75px;
+  }
   
   
   .circle3 {
