@@ -9,16 +9,16 @@
       width: 60%;
       padding: 10px;
   } */
-  .container{
+  /* .container{
     padding: 100px;
     margin: 100px;
-  }
+  } */
   /* body{
     background-color:black;
   } */
 
  .model{
-   padding-top: 150px;
+   padding-top: 100px;
    padding-right: 50px;
  }
 
@@ -261,6 +261,12 @@
      border-radius: 50%;
      -webkit-animation: look-around 4s infinite;
              animation: look-around 4s infinite;
+   }
+   .animation{
+    /* -webkit-animation: look-around 4s infinite;
+    animation: look-around 4s infinite; */
+    transform: translateX(5);
+
    }
    @-webkit-keyframes look-around {
      0% {
