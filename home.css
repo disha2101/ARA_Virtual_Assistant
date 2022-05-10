@@ -108,7 +108,7 @@
 
 
 
-  .cat {
+  /* .cat {
     position: absolute;
      height: 170px;
      width: 192.1px;
@@ -187,7 +187,7 @@
      background: #161616;
      -webkit-animation: blink 4s infinite ease-in;
              animation: blink 4s infinite ease-in;
-   }
+   } */
    @-webkit-keyframes blink {
      0% {
        height: 0;
@@ -263,9 +263,9 @@
              animation: look-around 4s infinite;
    }
    .animation{
-    /* -webkit-animation: look-around 4s infinite;
-    animation: look-around 4s infinite; */
-    transform: translateX(5);
+    -webkit-animation: infinite ease-in 4s infinite;
+    animation: infinite ease-in 4s infinite;
+    /* transform: translateX(5); */
 
    }
    @-webkit-keyframes look-around {
