@@ -126,8 +126,10 @@ def Commands():
             time.sleep(5)
 
         elif 'open google' in statement:
-            speak("")
-            webbrowser.open_new_tab("https://www.google.com")
+            speak("What should I search ??")
+            target=takeCommand()
+            time.sleep(1)
+            kt.search(target)
             speak("Google chrome is open now")
             time.sleep(5)
 
