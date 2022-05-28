@@ -160,9 +160,9 @@ if __name__=='__main__':
     while True:
         permission=takeCommand()
         if "ara" in permission:
-            speak("Loading your AI personal assistant ARA")
+            #speak("Loading your AI personal assistant ARA")
             gretings() 
-            speak("Tell me how can I help you ?")
+            speak("what can i do for you ?")
             statement =takeCommand()
             if statement==0:
                 continue
