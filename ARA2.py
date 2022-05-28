@@ -68,6 +68,7 @@ def tellDay():
         day_of_the_week = Day_dict[day]
         print(day_of_the_week)
         speak("The day is " + day_of_the_week)
+
 def tellTime():
       
     # This method will give the time
@@ -125,7 +126,7 @@ def Commands():
             time.sleep(5)
 
         elif 'open google' in statement:
-            speak
+            speak("")
             webbrowser.open_new_tab("https://www.google.com")
             speak("Google chrome is open now")
             time.sleep(5)
@@ -135,8 +136,8 @@ def Commands():
             speak("Google Mail open now")
             time.sleep(5)
             
-        elif 'open news' in statement:
-            news = webbrowser.open_new_tab(' https://timesofindia.indiatimes.com/home/headlines%E2%80%9D' )
+        elif 'open news' in statement or 'news' in statement:
+            news = webbrowser.open_new_tab('https://timesofindia.indiatimes.com/home/headlines' )
             speak('Here are some headlines from the Times of India, Happy reading')
             time.sleep(6)
 
