@@ -99,48 +99,46 @@ def timer (remider,seconds):
     duration=1000
     winsound.Beep(frequency,duration)
 
-
- 
-
 def Commands():
     #statement=takeCommand()
     while True:
         statement =takeCommand()
         if statement==0:
             continue
-        if "good bye" in statement or "ok bye" in statement or "stop" in statement or "goodbye" in statement:
+        if "good bye" in statement or "ok bye" in statement or "stop" in statement or "goodbye" in statement or "bye" in statement:
                 speak('your personal assistant is shutting down, Goodbye')
                 print('your personal assistant is shutting down, Goodbye')
                 break
 
         if 'wikipedia' in statement:
-                speak('Searching Wikipedia...')
-                statement =statement.replace("wikipedia", "")
-                results = wikipedia.summary(statement, sentences=2)
-                speak("According to Wikipedia")
-                print(results)
-                speak(results)
-                time.sleep(5)
+            speak('Searching Wikipedia...')
+            statement =statement.replace("wikipedia", "")
+            results = wikipedia.summary(statement, sentences=2)
+            speak("According to Wikipedia")
+            print(results)
+            speak(results)
+            time.sleep(5)
 
         elif 'open youtube' in statement:
-                webbrowser.open_new_tab("https://www.youtube.com")
-                speak("youtube is open now")
-                time.sleep(5)
+            webbrowser.open_new_tab("https://www.youtube.com")
+            speak("youtube is open now")
+            time.sleep(5)
 
         elif 'open google' in statement:
-                webbrowser.open_new_tab("https://www.google.com")
-                speak("Google chrome is open now")
-                time.sleep(5)
+            speak
+            webbrowser.open_new_tab("https://www.google.com")
+            speak("Google chrome is open now")
+            time.sleep(5)
 
         elif 'open gmail' in statement:
-                webbrowser.open_new_tab("gmail.com")
-                speak("Google Mail open now")
-                time.sleep(5)
+            webbrowser.open_new_tab("gmail.com")
+            speak("Google Mail open now")
+            time.sleep(5)
             
         elif 'open news' in statement:
-                news = webbrowser.open_new_tab(' https://timesofindia.indiatimes.com/home/headlines%E2%80%9D' )
-                speak('Here are some headlines from the Times of India,Happy reading')
-                time.sleep(6)
+            news = webbrowser.open_new_tab(' https://timesofindia.indiatimes.com/home/headlines%E2%80%9D' )
+            speak('Here are some headlines from the Times of India, Happy reading')
+            time.sleep(6)
 
         elif 'write an email' in statement:
                 try:
@@ -194,5 +192,5 @@ def Commands():
 if __name__=='__main__':
     gretings()
     Commands()
-        
+    
     
